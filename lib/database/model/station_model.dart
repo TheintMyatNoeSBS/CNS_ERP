@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:cns/database/entity/station_entity.dart';
+import 'package:cns/util/common.dart';
 import 'package:cns/util/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -61,8 +62,7 @@ class StationProvider with ChangeNotifier{
   String responseMessage = "";
 
   Future<void> callStationDownload(String sign) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
     List<StationModel> dataList = [];
     try{

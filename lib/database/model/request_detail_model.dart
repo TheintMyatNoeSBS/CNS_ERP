@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:cns/database/entity/order_item_table.dart';
 import 'package:cns/database/entity/order_table.dart';
+import 'package:cns/util/common.dart';
 import 'package:cns/util/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -117,8 +118,7 @@ class RequestDetailProvider with ChangeNotifier{
   Future<void> callDownloadRequest(String sign,String request,String orderDate,String userName) async {
     print("UserName"+userName);
 
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
 
     List<RequestDetailModel> dataList = [];

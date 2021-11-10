@@ -75,8 +75,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
   }
 
   void checkPassword() async{
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
     List<UserTable> _userList = await database.userDao.getUserByUserId(userID);
 
@@ -107,8 +106,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
     print("Username :$userCode");
     print("password :$oldPassword");
     print("password :$newPassword");
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
     try{
       var envelope = '''
 <?xml version="1.0" encoding="utf-8"?>

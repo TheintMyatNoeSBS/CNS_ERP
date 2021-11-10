@@ -80,8 +80,7 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   void checkExitUser() async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
     /*String usercode = _userCode.text.toLowerCase();
     String pass = _password.text;
@@ -138,8 +137,7 @@ class _LoginScreenState extends State<LoginScreen> {
   Future<void> callLoginApi(String userName,String password,String sign) async {
     print("Username :$userName");
     print("password :$password");
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
     List<UserModel> dataList = [];
     try{
       var envelope = '''
@@ -157,7 +155,7 @@ class _LoginScreenState extends State<LoginScreen> {
 ''';
 
       http.Response response = await http.post(
-          Uri.parse('http://43.228.125.94:2026/WebService/WebService_System.asmx'),
+          Uri.parse('http://43.228.125.24:2026/WebService/WebService_System.asmx'),
           headers: {
             "Content-Type": "text/xml; charset=utf-8",
           },

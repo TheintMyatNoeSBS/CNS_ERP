@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
+            "map": [
+                {
+                    "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/values-gl/values-gl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -103,8 +103,7 @@ class _RequestItemListState extends State<RequestItemList> {
   }
 
   void getOrderItemList(String orderID) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+    final database = await Common.instance.getAppDatabase();
 
     List<OrderItemTable> orderItemInfo = await database.orderItemDao.getByOrderId(orderID);
 
@@ -122,8 +121,7 @@ class _RequestItemListState extends State<RequestItemList> {
   }
 
   Future<void> getDataForSpinner() async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+    final database = await Common.instance.getAppDatabase();
 
     generic = await database.genericDao.getAllGeneric();
 
@@ -154,8 +152,7 @@ class _RequestItemListState extends State<RequestItemList> {
   }
 
   void addOrderItem(OrderItemTable orderItems) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+    final database = await Common.instance.getAppDatabase();
 
     database.orderItemDao.addOrderItem(orderItems);
 
@@ -346,9 +343,26 @@ class _RequestItemListState extends State<RequestItemList> {
         _chosenValue = unitName;
       }
       else{
-        _selectedUnit = itemUnit[0].UomLabel;
-        _selectedUnitID = itemUnit[0].ItemUOMID;
-        _qtyFocusNode.requestFocus();
+        if(unitList.isNotEmpty){
+          for(int j=0;j<itemUnit.length;j++){
+            if(itemUnit[j].Seq == "0"){
+              _selectedUnit = itemUnit[j].UomLabel;
+              _selectedUnitID = itemUnit[j].ItemUOMID;
+              _unitController.text = itemUnit[j].UomLabel;
+              _chosenValue = unitList[j];
+              _qtyFocusNode.requestFocus();
+            }
+            else if(itemUnit[j].Seq == "1"){
+              _selectedUnit = itemUnit[j].UomLabel;
+              _selectedUnitID = itemUnit[j].ItemUOMID;
+              _unitController.text = itemUnit[j].UomLabel;
+              _chosenValue = unitList[j];
+
+              _qtyFocusNode.requestFocus();
+            }
+          }
+        }
+
       }
 
 
@@ -401,13 +415,35 @@ class _RequestItemListState extends State<RequestItemList> {
           _qtyFocusNode.requestFocus();
         }
         else{
-          _selectedUnit = itemUnits[0].UomLabel;
+          if(itemUnits.length>0){
+            for(int b=0;b<itemUnits.length;b++){
+              if(itemUnits[b].Seq == "0"){
+                _selectedUnit = itemUnits[b].UomLabel;
+                _selectedUnitID = itemUnits[b].ItemUOMID;
+                _unitController.text = itemUnits[b].UomLabel;
+                _chosenValue = unitList[b];
+              }
+              else if(itemUnits[b].Seq == "1"){
+                _selectedUnit = itemUnits[b].UomLabel;
+                _selectedUnitID = itemUnits[b].ItemUOMID;
+                _unitController.text = itemUnits[b].UomLabel;
+                _chosenValue = unitList[b];
+              }
+
+            }
+            setState(() {
+              _qtyFocusNode.requestFocus();
+            });
+          }
+
+          /*_selectedUnit = itemUnits[0].UomLabel;
           _selectedUnitID = itemUnits[0].ItemUOMID;
           _chosenValue = unitList[0];
 
+
           print("SelectedUnitID"+_selectedUnitID);
           print("SelectedUnit :"+_chosenValue);
-          _qtyFocusNode.requestFocus();
+          _qtyFocusNode.requestFocus();*/
         }
 
       });

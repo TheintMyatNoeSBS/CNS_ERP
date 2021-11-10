@@ -8,9 +8,10 @@ class ItemUnitTable{
   final String CreatedOn;
   final String ModifiedOn;
   final String ItemID;
+  final String Seq;
 
   ItemUnitTable(this.ItemUOMID, this.UomLabel,
       this.CreatedOn,  this.ModifiedOn,
-      this.ItemID,
+      this.ItemID,this.Seq,
       );
 }

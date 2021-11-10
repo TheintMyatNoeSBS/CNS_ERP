@@ -81,7 +81,7 @@ class _$AppDatabase extends AppDatabase {
   Future<sqflite.Database> open(String path, List<Migration> migrations,
       [Callback? callback]) async {
     final databaseOptions = sqflite.OpenDatabaseOptions(
-      version: 5,
+      version: 6,
       onConfigure: (database) async {
         await database.execute('PRAGMA foreign_keys = ON');
         await callback?.onConfigure?.call(database);
@@ -103,7 +103,7 @@ class _$AppDatabase extends AppDatabase {
         await database.execute(
             'CREATE TABLE IF NOT EXISTS `ItemTable` (`ItemID` TEXT NOT NULL, `ItemNo` TEXT NOT NULL, `ItemName` TEXT NOT NULL, `CreatedOn` TEXT NOT NULL, `ModifiedOn` TEXT NOT NULL, `GenericName` TEXT NOT NULL, `GenericID` TEXT NOT NULL, PRIMARY KEY (`ItemID`))');
         await database.execute(
-            'CREATE TABLE IF NOT EXISTS `ItemUnitTable` (`ItemUOMID` TEXT NOT NULL, `UomLabel` TEXT NOT NULL, `CreatedOn` TEXT NOT NULL, `ModifiedOn` TEXT NOT NULL, `ItemID` TEXT NOT NULL, PRIMARY KEY (`ItemUOMID`))');
+            'CREATE TABLE IF NOT EXISTS `ItemUnitTable` (`ItemUOMID` TEXT NOT NULL, `UomLabel` TEXT NOT NULL, `CreatedOn` TEXT NOT NULL, `ModifiedOn` TEXT NOT NULL, `ItemID` TEXT NOT NULL, `Seq` TEXT NOT NULL, PRIMARY KEY (`ItemUOMID`))');
         await database.execute(
             'CREATE TABLE IF NOT EXISTS `OrderTable` (`orderId` TEXT NOT NULL, `requestNo` TEXT NOT NULL, `date` TEXT NOT NULL, `orderDate` TEXT NOT NULL, `requestStatus` TEXT NOT NULL, `mrType` TEXT NOT NULL, `requestBy` TEXT NOT NULL, `requestTo` TEXT NOT NULL, `stationName` TEXT NOT NULL, `remark` TEXT NOT NULL, `statusRemark` TEXT NOT NULL, `approvedBy` TEXT NOT NULL, `superApproveBy` TEXT NOT NULL, `modifyBy` TEXT NOT NULL, `modifyOn` TEXT NOT NULL, `createdBy` TEXT NOT NULL, `createdOn` TEXT NOT NULL, `station` TEXT NOT NULL, `isUpload` TEXT NOT NULL, PRIMARY KEY (`orderId`))');
         await database.execute(
@@ -715,7 +715,8 @@ class _$ItemUnitDao extends ItemUnitDao {
                   'UomLabel': item.UomLabel,
                   'CreatedOn': item.CreatedOn,
                   'ModifiedOn': item.ModifiedOn,
-                  'ItemID': item.ItemID
+                  'ItemID': item.ItemID,
+                  'Seq': item.Seq
                 }),
         _itemUnitTableUpdateAdapter = UpdateAdapter(
             database,
@@ -726,7 +727,8 @@ class _$ItemUnitDao extends ItemUnitDao {
                   'UomLabel': item.UomLabel,
                   'CreatedOn': item.CreatedOn,
                   'ModifiedOn': item.ModifiedOn,
-                  'ItemID': item.ItemID
+                  'ItemID': item.ItemID,
+                  'Seq': item.Seq
                 }),
         _itemUnitTableDeletionAdapter = DeletionAdapter(
             database,
@@ -737,7 +739,8 @@ class _$ItemUnitDao extends ItemUnitDao {
                   'UomLabel': item.UomLabel,
                   'CreatedOn': item.CreatedOn,
                   'ModifiedOn': item.ModifiedOn,
-                  'ItemID': item.ItemID
+                  'ItemID': item.ItemID,
+                  'Seq': item.Seq
                 });
 
   final sqflite.DatabaseExecutor database;
@@ -761,7 +764,8 @@ class _$ItemUnitDao extends ItemUnitDao {
             row['UomLabel'] as String,
             row['CreatedOn'] as String,
             row['ModifiedOn'] as String,
-            row['ItemID'] as String));
+            row['ItemID'] as String,
+            row['Seq'] as String));
   }
 
   @override
@@ -773,7 +777,8 @@ class _$ItemUnitDao extends ItemUnitDao {
             row['UomLabel'] as String,
             row['CreatedOn'] as String,
             row['ModifiedOn'] as String,
-            row['ItemID'] as String),
+            row['ItemID'] as String,
+            row['Seq'] as String),
         arguments: [itemID]);
   }
 
@@ -786,8 +791,14 @@ class _$ItemUnitDao extends ItemUnitDao {
             row['UomLabel'] as String,
             row['CreatedOn'] as String,
             row['ModifiedOn'] as String,
-            row['ItemID'] as String),
+            row['ItemID'] as String,
+            row['Seq'] as String),
         arguments: [uomID]);
+  }
+
+  @override
+  Future<void> deleteAll() async {
+    await _queryAdapter.queryNoReturn('delete from ItemUnitTable');
   }
 
   @override

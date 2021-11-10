@@ -21,4 +21,7 @@ abstract class ItemUnitDao{
 
   @update
   Future<void>updateItemUnit(ItemUnitTable items);
+
+  @Query("delete from ItemUnitTable")
+  Future<void> deleteAll();
 }

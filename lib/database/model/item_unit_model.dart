@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:cns/database/entity/item_unit_table.dart';
+import 'package:cns/util/common.dart';
 import 'package:cns/util/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -15,12 +16,14 @@ class ItemUnitModel with ChangeNotifier{
   final String CreatedOn;
   final String ModifiedOn;
   final String ItemID;
+  final String Seq;
 
   ItemUnitModel({
     required this.ItemUOMID, required this.UomLabel,
     required this.CreatedOn,
     required this.ModifiedOn,
     required this.ItemID,
+    required this.Seq,
   });
 
   factory ItemUnitModel.fromJSON(Map<String, dynamic> json) {
@@ -28,11 +31,12 @@ class ItemUnitModel with ChangeNotifier{
     List<ItemUnitModel> genericList = [];
 
     return ItemUnitModel(
-      ItemUOMID: json['ItemUOMID']==null? "-": json['ItemUOMID'],
-      UomLabel: json['UomLabel']==null? "-": json['UomLabel'],
-      CreatedOn: json['CreatedOn']==null? "-": json['CreatedOn'],
+      ItemUOMID: json['ItemUOMID']==null? "": json['ItemUOMID'],
+      UomLabel: json['UomLabel']==null? "": json['UomLabel'],
+      CreatedOn: json['CreatedOn']==null? "": json['CreatedOn'],
       ModifiedOn: json['ModifiedOn']==null? "": json['ModifiedOn'],
-      ItemID: json['ItemID']==null? "-": json['ItemID'],
+      ItemID: json['ItemID']==null? "": json['ItemID'],
+      Seq: json['Seq']==null? "": json['Seq'],
     );
   }
 
@@ -45,9 +49,9 @@ class ItemUnitProvider with ChangeNotifier{
   String modifyOn = "";
 
   Future<void> callItemUnitDownload(String sign) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+    final database = await Common.instance.getAppDatabase();
     List<ItemUnitModel> dataList = [];
+    database.itemUnitDao.deleteAll();
 
     List<ItemUnitTable> itemUnit = await database.itemUnitDao.getAllItemUnit();
     if(itemUnit.length>0){
@@ -116,6 +120,7 @@ class ItemUnitProvider with ChangeNotifier{
                   postData.CreatedOn,
                   postData.ModifiedOn,
                   postData.ItemID,
+                  postData.Seq,
               ));
 
         }

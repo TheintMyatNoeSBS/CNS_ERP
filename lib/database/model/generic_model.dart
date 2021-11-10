@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:cns/database/entity/generic_table.dart';
+import 'package:cns/util/common.dart';
 import 'package:cns/util/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -58,8 +59,7 @@ class GenericProvider with ChangeNotifier{
   String modifyOn = "";
 
   Future<void> callGenericDownload(String sign) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
     List<GenericTable> generics = await database.genericDao.getAllGeneric();
     if(generics.length>0){

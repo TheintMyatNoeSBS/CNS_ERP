@@ -22,7 +22,7 @@ import 'entity/station_entity.dart';
 import 'entity/user_table.dart';
 
 part 'appdatabase.g.dart';
-@Database(version: 5,entities: [UserTable,GenericTable,
+@Database(version: 6,entities: [UserTable,GenericTable,
   ItemTable,ItemUnitTable,OrderTable,OrderItemTable,StationTable,
   ProgramTable,LoginUserTable
 ])

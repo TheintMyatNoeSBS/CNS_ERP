@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:cns/database/entity/order_table.dart';
 import 'package:cns/database/model/order_model.dart';
+import 'package:cns/util/common.dart';
 import 'package:cns/util/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -97,8 +98,7 @@ class RequestProvider with ChangeNotifier{
   String responseMessage = "";
 
   Future<void> callUploadRequest(String sign,Request request,OrderModel orderModel) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
     print(request.toJson(request));
 
@@ -169,8 +169,7 @@ class RequestProvider with ChangeNotifier{
   }
 
   Future<void> callDownloadRequest(String sign,String request,String orderDate,String userName) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
 
     List<Request> dataList = [];

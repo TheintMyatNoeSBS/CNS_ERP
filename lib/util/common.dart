@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'package:cns/database/appdatabase.dart';
+import 'package:cns/util/database_migration.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:device_info/device_info.dart';
 import 'package:get/get.dart';
@@ -39,6 +41,12 @@ class Common{
       var androidDeviceInfo = await deviceInfo.androidInfo;
       return androidDeviceInfo.androidId; // unique ID on Android
     }
+  }
+
+  Future<AppDatabase> getAppDatabase() async {
+    final database =
+    await $FloorAppDatabase.databaseBuilder('cns.db').addMigrations([migration5to6]).build();
+    return database;
   }
 
 }

@@ -1,0 +1,187 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+io/flutter/plugins/sharedpreferences/R.java
+ io.flutter.plugins.sharedpreferences.R
+ io.flutter.plugins.sharedpreferences.R$attr
+ io.flutter.plugins.sharedpreferences.R$color
+ io.flutter.plugins.sharedpreferences.R$dimen
+ io.flutter.plugins.sharedpreferences.R$drawable
+ io.flutter.plugins.sharedpreferences.R$id
+ io.flutter.plugins.sharedpreferences.R$integer
+ io.flutter.plugins.sharedpreferences.R$layout
+ io.flutter.plugins.sharedpreferences.R$string
+ io.flutter.plugins.sharedpreferences.R$style
+ io.flutter.plugins.sharedpreferences.R$styleable
+androidx/activity/R.java
+ androidx.activity.R
+ androidx.activity.R$attr
+ androidx.activity.R$color
+ androidx.activity.R$dimen
+ androidx.activity.R$drawable
+ androidx.activity.R$id
+ androidx.activity.R$integer
+ androidx.activity.R$layout
+ androidx.activity.R$string
+ androidx.activity.R$style
+ androidx.activity.R$styleable
+androidx/lifecycle/livedata/core/R.java
+ androidx.lifecycle.livedata.core.R
+com/systematic/cns/BuildConfig.java
+ com.systematic.cns.BuildConfig
+androidx/lifecycle/livedata/R.java
+ androidx.lifecycle.livedata.R
+androidx/lifecycle/R.java
+ androidx.lifecycle.R
+io/flutter/plugins/connectivity/R.java
+ io.flutter.plugins.connectivity.R
+ io.flutter.plugins.connectivity.R$attr
+ io.flutter.plugins.connectivity.R$color
+ io.flutter.plugins.connectivity.R$dimen
+ io.flutter.plugins.connectivity.R$drawable
+ io.flutter.plugins.connectivity.R$id
+ io.flutter.plugins.connectivity.R$integer
+ io.flutter.plugins.connectivity.R$layout
+ io.flutter.plugins.connectivity.R$string
+ io.flutter.plugins.connectivity.R$style
+ io.flutter.plugins.connectivity.R$styleable
+androidx/arch/core/R.java
+ androidx.arch.core.R
+com/jrai/flutter_keyboard_visibility/R.java
+ com.jrai.flutter_keyboard_visibility.R
+ com.jrai.flutter_keyboard_visibility.R$attr
+ com.jrai.flutter_keyboard_visibility.R$color
+ com.jrai.flutter_keyboard_visibility.R$dimen
+ com.jrai.flutter_keyboard_visibility.R$drawable
+ com.jrai.flutter_keyboard_visibility.R$id
+ com.jrai.flutter_keyboard_visibility.R$integer
+ com.jrai.flutter_keyboard_visibility.R$layout
+ com.jrai.flutter_keyboard_visibility.R$string
+ com.jrai.flutter_keyboard_visibility.R$style
+ com.jrai.flutter_keyboard_visibility.R$styleable
+androidx/versionedparcelable/R.java
+ androidx.versionedparcelable.R
+androidx/viewpager/R.java
+ androidx.viewpager.R
+ androidx.viewpager.R$attr
+ androidx.viewpager.R$color
+ androidx.viewpager.R$dimen
+ androidx.viewpager.R$drawable
+ androidx.viewpager.R$id
+ androidx.viewpager.R$integer
+ androidx.viewpager.R$layout
+ androidx.viewpager.R$string
+ androidx.viewpager.R$style
+ androidx.viewpager.R$styleable
+androidx/fragment/R.java
+ androidx.fragment.R
+ androidx.fragment.R$attr
+ androidx.fragment.R$color
+ androidx.fragment.R$dimen
+ androidx.fragment.R$drawable
+ androidx.fragment.R$id
+ androidx.fragment.R$integer
+ androidx.fragment.R$layout
+ androidx.fragment.R$string
+ androidx.fragment.R$style
+ androidx.fragment.R$styleable
+androidx/savedstate/R.java
+ androidx.savedstate.R
+androidx/customview/R.java
+ androidx.customview.R
+ androidx.customview.R$attr
+ androidx.customview.R$color
+ androidx.customview.R$dimen
+ androidx.customview.R$drawable
+ androidx.customview.R$id
+ androidx.customview.R$integer
+ androidx.customview.R$layout
+ androidx.customview.R$string
+ androidx.customview.R$style
+ androidx.customview.R$styleable
+io/github/ponnamkarthik/toast/fluttertoast/R.java
+ io.github.ponnamkarthik.toast.fluttertoast.R
+ io.github.ponnamkarthik.toast.fluttertoast.R$attr
+ io.github.ponnamkarthik.toast.fluttertoast.R$color
+ io.github.ponnamkarthik.toast.fluttertoast.R$dimen
+ io.github.ponnamkarthik.toast.fluttertoast.R$drawable
+ io.github.ponnamkarthik.toast.fluttertoast.R$id
+ io.github.ponnamkarthik.toast.fluttertoast.R$integer
+ io.github.ponnamkarthik.toast.fluttertoast.R$layout
+ io.github.ponnamkarthik.toast.fluttertoast.R$string
+ io.github.ponnamkarthik.toast.fluttertoast.R$style
+ io.github.ponnamkarthik.toast.fluttertoast.R$styleable
+io/flutter/plugins/deviceinfo/R.java
+ io.flutter.plugins.deviceinfo.R
+ io.flutter.plugins.deviceinfo.R$attr
+ io.flutter.plugins.deviceinfo.R$color
+ io.flutter.plugins.deviceinfo.R$dimen
+ io.flutter.plugins.deviceinfo.R$drawable
+ io.flutter.plugins.deviceinfo.R$id
+ io.flutter.plugins.deviceinfo.R$integer
+ io.flutter.plugins.deviceinfo.R$layout
+ io.flutter.plugins.deviceinfo.R$string
+ io.flutter.plugins.deviceinfo.R$style
+ io.flutter.plugins.deviceinfo.R$styleable
+androidx/loader/R.java
+ androidx.loader.R
+ androidx.loader.R$attr
+ androidx.loader.R$color
+ androidx.loader.R$dimen
+ androidx.loader.R$drawable
+ androidx.loader.R$id
+ androidx.loader.R$integer
+ androidx.loader.R$layout
+ androidx.loader.R$string
+ androidx.loader.R$style
+ androidx.loader.R$styleable
+androidx/lifecycle/viewmodel/R.java
+ androidx.lifecycle.viewmodel.R
+com/systematic/cns/R.java
+ com.systematic.cns.R
+ com.systematic.cns.R$attr
+ com.systematic.cns.R$color
+ com.systematic.cns.R$dimen
+ com.systematic.cns.R$drawable
+ com.systematic.cns.R$id
+ com.systematic.cns.R$integer
+ com.systematic.cns.R$layout
+ com.systematic.cns.R$mipmap
+ com.systematic.cns.R$string
+ com.systematic.cns.R$style
+ com.systematic.cns.R$styleable
+com/tekartik/sqflite/R.java
+ com.tekartik.sqflite.R
+ com.tekartik.sqflite.R$attr
+ com.tekartik.sqflite.R$color
+ com.tekartik.sqflite.R$dimen
+ com.tekartik.sqflite.R$drawable
+ com.tekartik.sqflite.R$id
+ com.tekartik.sqflite.R$integer
+ com.tekartik.sqflite.R$layout
+ com.tekartik.sqflite.R$string
+ com.tekartik.sqflite.R$style
+ com.tekartik.sqflite.R$styleable
+io/flutter/plugins/packageinfo/R.java
+ io.flutter.plugins.packageinfo.R
+ io.flutter.plugins.packageinfo.R$attr
+ io.flutter.plugins.packageinfo.R$color
+ io.flutter.plugins.packageinfo.R$dimen
+ io.flutter.plugins.packageinfo.R$drawable
+ io.flutter.plugins.packageinfo.R$id
+ io.flutter.plugins.packageinfo.R$integer
+ io.flutter.plugins.packageinfo.R$layout
+ io.flutter.plugins.packageinfo.R$string
+ io.flutter.plugins.packageinfo.R$style
+ io.flutter.plugins.packageinfo.R$styleable
+androidx/core/R.java
+ androidx.core.R
+ androidx.core.R$attr
+ androidx.core.R$color
+ androidx.core.R$dimen
+ androidx.core.R$drawable
+ androidx.core.R$id
+ androidx.core.R$integer
+ androidx.core.R$layout
+ androidx.core.R$string
+ androidx.core.R$style
+ androidx.core.R$styleable

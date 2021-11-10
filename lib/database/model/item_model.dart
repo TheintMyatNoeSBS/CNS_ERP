@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:cns/database/entity/item_table.dart';
 import 'package:cns/database/model/item_detail_model.dart';
+import 'package:cns/util/common.dart';
 import 'package:cns/util/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -68,8 +69,9 @@ class ItemProvider with ChangeNotifier{
   String modifyOn = "";
 
   Future<void> callItemDownload(String sign) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+    final database = await Common.instance.getAppDatabase();
+//    final database =
+//    await $FloorAppDatabase.databaseBuilder('cns.db').build();
     List<ItemModel> dataList = [];
 
     List<ItemTable> items = await database.itemDao.getAllItem();

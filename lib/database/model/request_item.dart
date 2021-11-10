@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:cns/database/entity/order_item_table.dart';
 import 'package:cns/database/model/order_item_model.dart';
+import 'package:cns/util/common.dart';
 import 'package:cns/util/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -71,8 +72,7 @@ class RequestItemProvider with ChangeNotifier{
   String responseMessage = "";
 
   Future<void> callUploadRequestItem(String sign,RequestItem requestItem,OrderItemModel orderItemModel) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
 //    final obj = RequestItem();
     print(requestItem.toJson(requestItem));
@@ -170,8 +170,7 @@ class RequestItemProvider with ChangeNotifier{
   }
 
   Future<void> callUpdateRequestItemApi(String sign,RequestItem requestItem,OrderItemModel orderItemModel) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
 //    final obj = RequestItem();
     print(requestItem.toJson(requestItem));
@@ -252,8 +251,7 @@ class RequestItemProvider with ChangeNotifier{
 
 
   Future<void> callDeleteRequestItemApi(String sign,RequestItem requestItem,OrderItemModel orderItemModel) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
 //    final obj = RequestItem();
     print(requestItem.toJson(requestItem));

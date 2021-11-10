@@ -49,8 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void getUserInfo(String userID) async {
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
 
     List<LoginUserTable> userInfo = await database.loginUserDao.getUserByUserId(userID);
     print("UserInfo"+userInfo.length.toString());
@@ -63,8 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void checkPermission(String programCode,String route) async{
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
     List<ProgramTable> programs = await database.programDao.getPermission(userID,programCode);
     print('Program'+programs.length.toString());
     if(programs.length>0){
@@ -156,8 +154,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<void> callLogoutApi(String userName,String password,String sign) async {
     print("Username"+userName);
     print("Password"+password);
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+        final database = await Common.instance.getAppDatabase();
     try{
       var envelope = '''
 <?xml version="1.0" encoding="utf-8"?>
