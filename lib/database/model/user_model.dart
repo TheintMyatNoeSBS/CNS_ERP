@@ -102,7 +102,7 @@ class UserProvider with ChangeNotifier{
 
   Future<void> callLoginApi(String userName,String password,String sign) async {
     print("Username :$userName");
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
     List<UserModel> dataList = [];
     try{
       var envelope = '''
@@ -231,7 +231,7 @@ class UserProvider with ChangeNotifier{
   }
 
   Future<void> callDownloadUserApi(String sign) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
     List<UserModel> dataList = [];
     try{
       var envelope = '''

@@ -139,7 +139,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
   }
 
   void _loadOrderData(String orderID) async{
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     List<OrderTable> orderInfo= await database.orderDao.getByOrderId(orderID);
     print("OrderList"+orderInfo.length.toString());
@@ -270,7 +270,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
 
   void getStation(String StationID) async{
     _selectedStationID = StationID;
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     if(_selectedStationID!=null){
       List<StationTable> stationInfo = await database.stationDao.getByID(_selectedStationID);
@@ -282,7 +282,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
   }
 
   void getUserInfo(String userID) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     List<UserTable> userInfo = await database.userDao.getUserByUserId(userID);
     print("UserInfo"+userInfo.length.toString());
@@ -352,7 +352,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
   }
 
   Future<void> getDataForSpinner() async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     generic = await database.genericDao.getAllGeneric();
 
@@ -391,7 +391,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
   }
 
   void getUnit(String itemID) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
     var value;
     itemUnit = await database.itemUnitDao.getById(itemID);
     unitList.clear();
@@ -403,14 +403,6 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
         _selectedUnitID = itemUnit[0].ItemUOMID;
         _unitController.text = itemUnit[0].UomLabel;
         _chosenValue = unitList[0];
-        /*var seq = itemUnits[i].Seq;
-        if(seq == "1"){
-          _chosenValue = unitList[i];
-
-        }
-        else{
-          _chosenValue = unitList[0];
-        }*/
         print(unitList.length);
       });
     }
@@ -423,12 +415,14 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
             _selectedUnitID = itemUnit[j].ItemUOMID;
             _unitController.text = itemUnit[j].UomLabel;
             _chosenValue = unitList[j];
+            break;
           }
           else if(itemUnit[j].Seq == "1"){
             _selectedUnit = itemUnit[j].UomLabel;
             _selectedUnitID = itemUnit[j].ItemUOMID;
             _unitController.text = itemUnit[j].UomLabel;
             _chosenValue = unitList[j];
+            break;
           }
         }
       }
@@ -437,7 +431,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
   }
 
   void getUnitByGeneric(String genericID) async{
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
     var value;
     List<ItemTable> itemList = await database.itemDao.getByGenericId(genericID);
     print("itemList"+itemList.length.toString());
@@ -484,12 +478,14 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
                 _selectedUnitID = itemUnits[b].ItemUOMID;
                 _unitController.text = itemUnits[b].UomLabel;
                 _chosenValue = unitList[b];
+                break;
               }
               else if(itemUnits[b].Seq == "1"){
                 _selectedUnit = itemUnits[b].UomLabel;
                 _selectedUnitID = itemUnits[b].ItemUOMID;
                 _unitController.text = itemUnits[b].UomLabel;
                 _chosenValue = unitList[b];
+                break;
               }
 
             }
@@ -761,7 +757,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
   }
 
   void getOrderItemList(String orderID) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     List<OrderItemTable> orderItemInfo = await database.orderItemDao.getByOrderId(orderID);
 
@@ -811,7 +807,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
   }
 
   void checkHasChanges() async{
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     List<OrderItemTable> orderItemInfo = await database.orderItemDao.getByOrderId(orderID);
     List<OrderTable> orderInfo = await database.orderDao.getByOrderId(orderID);

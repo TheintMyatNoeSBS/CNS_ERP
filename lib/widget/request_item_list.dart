@@ -298,8 +298,7 @@ class _RequestItemListState extends State<RequestItemList> {
 
   void deleteItem(String itemID) async{
     print("CallDownload");
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+    final database = await Common.instance.getAppDatabase();
     database.orderItemDao.deleteItem(itemID);
   }
 
@@ -317,8 +316,7 @@ class _RequestItemListState extends State<RequestItemList> {
 
     print("itemID"+itemID);
 
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+    final database = await Common.instance.getAppDatabase();
     var value;
     itemUnit = await database.itemUnitDao.getById(itemID);
 
@@ -350,19 +348,22 @@ class _RequestItemListState extends State<RequestItemList> {
               _selectedUnitID = itemUnit[j].ItemUOMID;
               _unitController.text = itemUnit[j].UomLabel;
               _chosenValue = unitList[j];
-              _qtyFocusNode.requestFocus();
+              break;
             }
             else if(itemUnit[j].Seq == "1"){
               _selectedUnit = itemUnit[j].UomLabel;
               _selectedUnitID = itemUnit[j].ItemUOMID;
               _unitController.text = itemUnit[j].UomLabel;
               _chosenValue = unitList[j];
+              break;
 
-              _qtyFocusNode.requestFocus();
             }
           }
         }
 
+        setState(() {
+          _qtyFocusNode.requestFocus();
+        });
       }
 
 
@@ -372,8 +373,7 @@ class _RequestItemListState extends State<RequestItemList> {
 
   void getUnitByGeneric(String genericID, String unitName) async{
     print('Unit Name'+unitName);
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();
+    final database = await Common.instance.getAppDatabase();
     var value;
     List<ItemTable> itemList = await database.itemDao.getByGenericId(genericID);
     unitList.clear();
@@ -422,12 +422,14 @@ class _RequestItemListState extends State<RequestItemList> {
                 _selectedUnitID = itemUnits[b].ItemUOMID;
                 _unitController.text = itemUnits[b].UomLabel;
                 _chosenValue = unitList[b];
+                break;
               }
               else if(itemUnits[b].Seq == "1"){
                 _selectedUnit = itemUnits[b].UomLabel;
                 _selectedUnitID = itemUnits[b].ItemUOMID;
                 _unitController.text = itemUnits[b].UomLabel;
                 _chosenValue = unitList[b];
+                break;
               }
 
             }
@@ -436,14 +438,6 @@ class _RequestItemListState extends State<RequestItemList> {
             });
           }
 
-          /*_selectedUnit = itemUnits[0].UomLabel;
-          _selectedUnitID = itemUnits[0].ItemUOMID;
-          _chosenValue = unitList[0];
-
-
-          print("SelectedUnitID"+_selectedUnitID);
-          print("SelectedUnit :"+_chosenValue);
-          _qtyFocusNode.requestFocus();*/
         }
 
       });

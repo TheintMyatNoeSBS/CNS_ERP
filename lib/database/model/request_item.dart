@@ -72,7 +72,7 @@ class RequestItemProvider with ChangeNotifier{
   String responseMessage = "";
 
   Future<void> callUploadRequestItem(String sign,RequestItem requestItem,OrderItemModel orderItemModel) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
 //    final obj = RequestItem();
     print(requestItem.toJson(requestItem));
@@ -170,7 +170,7 @@ class RequestItemProvider with ChangeNotifier{
   }
 
   Future<void> callUpdateRequestItemApi(String sign,RequestItem requestItem,OrderItemModel orderItemModel) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
 //    final obj = RequestItem();
     print(requestItem.toJson(requestItem));
@@ -251,7 +251,7 @@ class RequestItemProvider with ChangeNotifier{
 
 
   Future<void> callDeleteRequestItemApi(String sign,RequestItem requestItem,OrderItemModel orderItemModel) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
 //    final obj = RequestItem();
     print(requestItem.toJson(requestItem));

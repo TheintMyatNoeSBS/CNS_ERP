@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Systematic/Projects/cns/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/values-sv/values-sv.xml",

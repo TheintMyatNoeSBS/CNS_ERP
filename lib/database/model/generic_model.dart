@@ -59,7 +59,7 @@ class GenericProvider with ChangeNotifier{
   String modifyOn = "";
 
   Future<void> callGenericDownload(String sign) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     List<GenericTable> generics = await database.genericDao.getAllGeneric();
     if(generics.length>0){

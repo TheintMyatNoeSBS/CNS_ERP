@@ -62,7 +62,7 @@ class StationProvider with ChangeNotifier{
   String responseMessage = "";
 
   Future<void> callStationDownload(String sign) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     List<StationModel> dataList = [];
     try{

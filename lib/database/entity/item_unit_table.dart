@@ -12,6 +12,7 @@ class ItemUnitTable{
 
   ItemUnitTable(this.ItemUOMID, this.UomLabel,
       this.CreatedOn,  this.ModifiedOn,
-      this.ItemID,this.Seq,
+      this.ItemID,
+      this.Seq,
       );
 }

@@ -1,1 +1,1 @@
-{"mName":"externalOverride","mStoreFile":"/Users/Systematic/KeyStore/CNS_KeyStore/cns_new_keystore/cns_key_store","mStorePassword":"System@t1c","mKeyAlias":"key0","mKeyPassword":"System@t1c","mStoreType":"jks","mV1SigningEnabled":false,"mV2SigningEnabled":false}
+{"mName":"externalOverride","mStoreFile":"/Users/Systematic/KeyStore/CNS_KeyStore/cns_new_keystore/cns_key_store","mStorePassword":"System@t1c","mKeyAlias":"key0","mKeyPassword":"System@t1c","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}

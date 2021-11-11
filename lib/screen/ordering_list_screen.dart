@@ -19,7 +19,6 @@ import 'package:cns/screen/home_screen.dart';
 import 'package:cns/screen/order_detail_screen.dart';
 import 'package:cns/util/common.dart';
 import 'package:cns/util/constants.dart';
-import 'package:cns/util/database_migration.dart';
 import 'package:cns/widget/order_list_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -105,7 +104,7 @@ class _OrderListScreenState extends State<OrderListScreen> {
 
 
   void getOrderList(String userName,String strDate) async{
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     print("DAte"+strDate);
 //    List<OrderTable> orders = await database.orderDao.getByUser('$strDate');
@@ -156,7 +155,7 @@ class _OrderListScreenState extends State<OrderListScreen> {
     String date = dateFormat.format(requestDate);
 //    getOrderList(userName,date);
 
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     List<OrderTable> orders = await database.orderDao.getByStation(date,userName);
     print("orders"+orders.length.toString());
@@ -188,7 +187,7 @@ class _OrderListScreenState extends State<OrderListScreen> {
   }
 
   void checkData() async{
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     List<ItemTable> itemList = await database.itemDao.getAllItem();
     List<ItemUnitTable> itemUnitList = await database.itemUnitDao.getAllItemUnit();

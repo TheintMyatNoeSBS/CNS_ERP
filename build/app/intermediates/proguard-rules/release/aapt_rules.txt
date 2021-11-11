@@ -1,4 +1,4 @@
-# Referenced at /Users/Systematic/Projects/cns/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:14
+# Referenced at /Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:14
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at /Users/Systematic/Projects/cns/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:18
+# Referenced at /Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:18
 -keep class com.systematic.cns.MainActivity { <init>(); }

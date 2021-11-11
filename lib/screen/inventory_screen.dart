@@ -74,8 +74,7 @@ class _InventoryScreenState extends State<InventoryScreen> {
     print("Sign :$sign");*/
 
     /*print("Username :$userName");
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();*/
+    final database = await Common.instance.getAppDatabase();*/
     try{
       var envelope = '''
 <?xml version="1.0" encoding="utf-8"?>
@@ -212,8 +211,7 @@ class _InventoryScreenState extends State<InventoryScreen> {
   Future<void> callGetInvItemDetailApi(String name,String sign) async {
     print("Barcode :$name");
     /*print("Username :$userName");
-    final database =
-    await $FloorAppDatabase.databaseBuilder('cns.db').build();*/
+    final database = await Common.instance.getAppDatabase();*/
     try{
       var envelope = '''
 <?xml version="1.0" encoding="utf-8"?>

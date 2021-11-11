@@ -70,8 +70,6 @@ class ItemProvider with ChangeNotifier{
 
   Future<void> callItemDownload(String sign) async {
     final database = await Common.instance.getAppDatabase();
-//    final database =
-//    await $FloorAppDatabase.databaseBuilder('cns.db').build();
     List<ItemModel> dataList = [];
 
     List<ItemTable> items = await database.itemDao.getAllItem();

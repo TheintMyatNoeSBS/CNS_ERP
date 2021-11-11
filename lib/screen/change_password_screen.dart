@@ -75,7 +75,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
   }
 
   void checkPassword() async{
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     List<UserTable> _userList = await database.userDao.getUserByUserId(userID);
 
@@ -106,7 +106,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
     print("Username :$userCode");
     print("password :$oldPassword");
     print("password :$newPassword");
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
     try{
       var envelope = '''
 <?xml version="1.0" encoding="utf-8"?>
@@ -123,7 +123,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
 ''';
 
       http.Response response = await http.post(
-          Uri.parse('http://43.228.125.94:2026/WebService/WebService_System.asmx'),
+          Uri.parse('http://43.228.125.24:2026/WebService/WebService_System.asmx'),
           headers: {
             "Content-Type": "text/xml; charset=utf-8",
           },

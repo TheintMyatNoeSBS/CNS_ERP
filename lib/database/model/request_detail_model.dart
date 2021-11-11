@@ -118,7 +118,7 @@ class RequestDetailProvider with ChangeNotifier{
   Future<void> callDownloadRequest(String sign,String request,String orderDate,String userName) async {
     print("UserName"+userName);
 
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
 
     List<RequestDetailModel> dataList = [];

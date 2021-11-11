@@ -572,12 +572,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "sqflite_migration",
-      "rootUri": "file:///Users/Systematic/Flutter_Project/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite_migration-0.3.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "sqlite3",
       "rootUri": "file:///Users/Systematic/Flutter_Project/flutter/.pub-cache/hosted/pub.dartlang.org/sqlite3-1.1.2",
       "packageUri": "lib/",
@@ -704,7 +698,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-11-10T09:59:03.689373Z",
+  "generated": "2021-11-11T03:40:04.836848Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }

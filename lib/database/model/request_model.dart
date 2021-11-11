@@ -98,7 +98,7 @@ class RequestProvider with ChangeNotifier{
   String responseMessage = "";
 
   Future<void> callUploadRequest(String sign,Request request,OrderModel orderModel) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
     print(request.toJson(request));
 
@@ -169,7 +169,7 @@ class RequestProvider with ChangeNotifier{
   }
 
   Future<void> callDownloadRequest(String sign,String request,String orderDate,String userName) async {
-        final database = await Common.instance.getAppDatabase();
+    final database = await Common.instance.getAppDatabase();
 
 
     List<Request> dataList = [];

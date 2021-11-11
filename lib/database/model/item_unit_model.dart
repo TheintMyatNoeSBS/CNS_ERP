@@ -31,11 +31,11 @@ class ItemUnitModel with ChangeNotifier{
     List<ItemUnitModel> genericList = [];
 
     return ItemUnitModel(
-      ItemUOMID: json['ItemUOMID']==null? "": json['ItemUOMID'],
-      UomLabel: json['UomLabel']==null? "": json['UomLabel'],
-      CreatedOn: json['CreatedOn']==null? "": json['CreatedOn'],
+      ItemUOMID: json['ItemUOMID']==null? "-": json['ItemUOMID'],
+      UomLabel: json['UomLabel']==null? "-": json['UomLabel'],
+      CreatedOn: json['CreatedOn']==null? "-": json['CreatedOn'],
       ModifiedOn: json['ModifiedOn']==null? "": json['ModifiedOn'],
-      ItemID: json['ItemID']==null? "": json['ItemID'],
+      ItemID: json['ItemID']==null? "-": json['ItemID'],
       Seq: json['Seq']==null? "": json['Seq'],
     );
   }

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Systematic/Projects/cns/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/Systematic/Projects/cns/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
