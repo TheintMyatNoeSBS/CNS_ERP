@@ -1,4 +1,4 @@
-#Thu Nov 11 10:52:24 MMT 2021
+#Mon Nov 15 13:53:23 MMT 2021
 base.0=/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/transforms/r8/release/0
 path.0=classes.dex
 renamed.0=classes.dex

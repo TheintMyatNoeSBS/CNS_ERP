@@ -123,7 +123,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
 ''';
 
       http.Response response = await http.post(
-          Uri.parse('http://43.228.125.24:2026/WebService/WebService_System.asmx'),
+          Uri.parse('http://43.228.125.94:2026/WebService/WebService_System.asmx'),
           headers: {
             "Content-Type": "text/xml; charset=utf-8",
           },

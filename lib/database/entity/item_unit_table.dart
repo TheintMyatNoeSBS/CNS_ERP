@@ -11,7 +11,7 @@ class ItemUnitTable{
   final String Seq;
 
   ItemUnitTable(this.ItemUOMID, this.UomLabel,
-      this.CreatedOn,  this.ModifiedOn,
+      this.CreatedOn, this.ModifiedOn,
       this.ItemID,
       this.Seq,
       );

@@ -195,32 +195,36 @@ class _OrderListScreenState extends State<OrderListScreen> {
     List<StationTable> stationList = await database.stationDao.getAllStation();
 
     if(itemList.length==0 || genericList.length==0 || itemUnitList.length==0 || stationList.length==0){
-      showDialog(
-          context: context,
-          builder: (_) => AlertDialog(
-            insetPadding: EdgeInsets.only(left: 10,right: 10),
-            content: Text('Need to downlod data first!'),
-            actions: [
-              FlatButton(
-                onPressed: () {
-                  Navigator.of(context).pop(false);
-                },
-                child: Text('OK',style: TextStyle(color: Colors.blue),),
-              ),
-            ],
-          )
-      );
+      setState(() {
+        showDialog(
+            context: context,
+            builder: (_) => AlertDialog(
+              insetPadding: EdgeInsets.only(left: 10,right: 10),
+              content: Text('Need to downlod data first!'),
+              actions: [
+                FlatButton(
+                  onPressed: () {
+                    Navigator.of(context).pop(false);
+                  },
+                  child: Text('OK',style: TextStyle(color: Colors.blue),),
+                ),
+              ],
+            )
+        );
+      });
     }
     else{
       Common.instance.setStringValue(Constants.user_id, userID);
 
       Common.instance.setStringValue(Constants.order_id, "");
-      Navigator.pushAndRemoveUntil(
-          context,
-          MaterialPageRoute(
-              builder: (context) => OrderDetailScreen()
-          ),
-          ModalRoute.withName(OrderDetailScreen.routeName));
+      setState(() {
+        Navigator.pushAndRemoveUntil(
+            context,
+            MaterialPageRoute(
+                builder: (context) => OrderDetailScreen()
+            ),
+            ModalRoute.withName(OrderDetailScreen.routeName));
+      });
     }
   }
 
@@ -558,7 +562,9 @@ class _OrderListScreenState extends State<OrderListScreen> {
               elevation: 0.0,
               child: new Icon(Icons.add),
               onPressed: (){
-                checkData();
+                setState(() {
+                  checkData();
+                });
               }
           ),
         /*bottomSheet: Padding(

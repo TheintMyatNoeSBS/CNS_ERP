@@ -314,6 +314,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
     _tradeController.text = "";
     _qtyController.text = "";
     _genericController.text= "";
+    _unitController.text= "";
     _itemRemarkController.text = "";
     _selectedUnit = "";
     _selectedUnitID = "";
@@ -326,6 +327,15 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
     List<String> matches = [];
 
     matches.addAll(tradeList);
+
+    matches.retainWhere((s) => s.toLowerCase().contains(query.toLowerCase()));
+    return matches;
+  }
+
+  List<String> _getUnit(String query) {
+    List<String> matches = [];
+
+    matches.addAll(unitList);
 
     matches.retainWhere((s) => s.toLowerCase().contains(query.toLowerCase()));
     return matches;
@@ -411,20 +421,26 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
       if(unitList.isNotEmpty){
         for(int j=0;j<itemUnit.length;j++){
           if(itemUnit[j].Seq == "0"){
-            _selectedUnit = itemUnit[j].UomLabel;
-            _selectedUnitID = itemUnit[j].ItemUOMID;
-            _unitController.text = itemUnit[j].UomLabel;
-            _chosenValue = unitList[j];
+            setState((){
+              _selectedUnit = itemUnit[j].UomLabel;
+              _selectedUnitID = itemUnit[j].ItemUOMID;
+              _unitController.text = itemUnit[j].UomLabel;
+              _chosenValue = unitList[j];
+
+            });
             break;
           }
           else if(itemUnit[j].Seq == "1"){
-            _selectedUnit = itemUnit[j].UomLabel;
-            _selectedUnitID = itemUnit[j].ItemUOMID;
-            _unitController.text = itemUnit[j].UomLabel;
-            _chosenValue = unitList[j];
+            setState(() {
+              _selectedUnit = itemUnit[j].UomLabel;
+              _selectedUnitID = itemUnit[j].ItemUOMID;
+              _unitController.text = itemUnit[j].UomLabel;
+              _chosenValue = unitList[j];
+            });
             break;
           }
         }
+        print("ChooseUnit_:$_chosenValue");
       }
     });
 
@@ -1137,8 +1153,98 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
                             ),
                           ),
                         ),
-
                         Expanded(
+                          child: GestureDetector(
+                            onTap: () {
+
+                              FocusScope.of(context).requestFocus(new FocusNode());
+                            },
+                            child: TypeAheadFormField(
+                              textFieldConfiguration: TextFieldConfiguration(
+                                controller: _unitController,
+                                cursorColor: Colors.transparent,
+                                cursorWidth: 0,
+                                maxLines: 2,
+                                decoration: InputDecoration(
+                                    isDense: true,
+                                    contentPadding: EdgeInsets.only(top: 20,bottom: 6),
+                                    hintText: 'Please Select',
+                                    suffixIcon: Icon(Icons.arrow_drop_down)
+                                ),
+                                style: TextStyle(
+                                  fontSize: 14,
+                                ),
+                                onChanged: (value){
+                                  setState(() {
+                                    _chosenValue = value;
+                                    _qtyFocusNode.requestFocus();
+                                    _selectedUnit = _chosenValue.toString();
+
+                                    if(_tradeController.text.isEmpty){
+                                      _selectedUnitIndex = unitList.indexOf(_selectedUnit);
+                                      ItemUnitTable unit = itemUnits[_selectedUnitIndex];
+                                      if(unit!=null){
+                                        _selectedUnitID = unit.ItemUOMID;
+                                        print("_selectedUnitID"+_selectedUnitID);
+                                      }
+                                    }
+                                    else{
+                                      _selectedUnitIndex = unitList.indexOf(_selectedUnit);
+                                      ItemUnitTable unit = itemUnit[_selectedUnitIndex];
+                                      if(unit!=null){
+                                        _selectedUnitID = unit.ItemUOMID;
+                                        print("_selectedUnitID"+_selectedUnitID);
+                                      }
+                                    }
+                                    print("VAlue"+_chosenValue.toString());
+                                  });
+                                },
+                              ),
+                              suggestionsCallback: (String pattern) {
+                                return _getUnit("");
+                              },
+                              itemBuilder: (context, String suggestion) {
+                                return ListTile(
+                                  title: Text(suggestion),
+                                );
+                              },
+                              transitionBuilder: (context, suggestionsBox, controller) {
+                                return suggestionsBox;
+                              },
+                              onSuggestionSelected: (String suggestion) {
+                                _unitController.text = suggestion;
+                                _selectedUnit = suggestion;
+                                if(_tradeController.text.isEmpty){
+                                  _selectedUnitIndex = unitList.indexOf(_selectedUnit);
+                                  ItemUnitTable unit = itemUnits[_selectedUnitIndex];
+                                  if(unit!=null){
+                                    _selectedUnitID = unit.ItemUOMID;
+                                    print("_selectedUnitID"+_selectedUnitID);
+                                  }
+                                }
+                                else{
+                                  _selectedUnitIndex = unitList.indexOf(_selectedUnit);
+                                  ItemUnitTable unit = itemUnit[_selectedUnitIndex];
+                                  if(unit!=null){
+                                    _selectedUnitID = unit.ItemUOMID;
+                                    print("_selectedUnitID"+_selectedUnitID);
+                                  }
+                                }
+                                print("VAlue"+_chosenValue.toString());
+
+                              },
+                              validator: (val) => val!.isEmpty
+                                  ? 'Please Select'
+                                  : null,
+                              onSaved: (val){
+                                setState((){
+                                  _selectedUnit = val!;
+                                });
+                              },
+                            ),
+                          ),
+                        )
+                        /*Expanded(
                           child: Padding(
                             padding: EdgeInsets.only(right: 10),
                             child: DropdownButton<String>(
@@ -1183,7 +1289,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
                               },
                             ),
                           ),
-                        )
+                        )*/
                       ],
                     ),
                   ),
