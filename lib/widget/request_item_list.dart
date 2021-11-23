@@ -533,8 +533,10 @@ class _RequestItemListState extends State<RequestItemList> {
                               onChanged: (value){
                                 if(value.length==0){
                                   if(_tradeController.text.isEmpty){
-                                    getUnitByGeneric(_selectedGenericID,"");
-                                    _qtyFocusNode.requestFocus();
+                                    setState(() {
+                                      getUnitByGeneric(_selectedGenericID,"");
+                                      _qtyFocusNode.requestFocus();
+                                    });
                                   }
                                   else{
                                     setState(() {
@@ -571,7 +573,9 @@ class _RequestItemListState extends State<RequestItemList> {
                                   _selectedGenericID = items.GenericID;
                                   _selectedTradeID = items.ItemID;
 
-                                  getUnit(items.ItemID,"");
+                                  setState(() {
+                                    getUnit(items.ItemID,"");
+                                  });
                                 }
                               });
 

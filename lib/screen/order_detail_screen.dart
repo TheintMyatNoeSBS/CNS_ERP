@@ -329,6 +329,8 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
     matches.addAll(tradeList);
 
     matches.retainWhere((s) => s.toLowerCase().contains(query.toLowerCase()));
+    matches.sort((a, b) => a.toLowerCase().compareTo(b.toLowerCase()));
+
     return matches;
   }
 
@@ -348,6 +350,8 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
     matches.addAll(genericList);
 
     matches.retainWhere((s) => s.toLowerCase().contains(query.toLowerCase()));
+    matches.sort((a, b) => a.toLowerCase().compareTo(b.toLowerCase()));
+
     return matches;
   }
 
@@ -358,6 +362,8 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
     matches.addAll(strStationList);
 
     matches.retainWhere((s) => s.toLowerCase().contains(query.toLowerCase()));
+    matches.sort((a, b) => a.toLowerCase().compareTo(b.toLowerCase()));
+
     return matches;
   }
 
@@ -1014,8 +1020,10 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
                                 onChanged: (value){
                                   if(value.length==0){
                                     if(_tradeController.text.isEmpty){
-                                      getUnitByGeneric(_selectedGenericID);
-                                      _qtyFocusNode.requestFocus();
+                                      setState(() {
+                                        getUnitByGeneric(_selectedGenericID);
+                                        _qtyFocusNode.requestFocus();
+                                      });
                                     }
                                     else{
                                       setState(() {
@@ -1099,9 +1107,11 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
                                   fontSize: 14,
                                 ),
                                 onChanged: (value){
-                                  if(value.length==0 && _tradeController.text.isEmpty){
-                                    getUnitByGeneric("");
-                                  }
+                                  setState(() {
+                                    if(value.length==0 && _tradeController.text.isEmpty){
+                                      getUnitByGeneric("");
+                                    }
+                                  });
                                 }
                               ),
                               suggestionsCallback: (String pattern) {
@@ -1116,20 +1126,24 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
                                 return suggestionsBox;
                               },
                               onSuggestionSelected: (String suggestion) {
-                                _genericController.text = suggestion;
+                                setState(() {
+                                  _genericController.text = suggestion;
 
-                                _selectedGenericIndex = genericList.indexOf(suggestion);
-                                GenericTable generics = generic[_selectedGenericIndex];
-                                if(generics!=null){
-                                  _selectedGenericID = generics.GenericID;
-                                  _selectedGenericName = generics.GenericName;
-                                  print("generic");
-                                  if(_tradeController.text.isEmpty){
-                                    print("Selectgeneric");
-                                    getUnitByGeneric(_selectedGenericID);
-                                    _qtyFocusNode.requestFocus();
+                                  _selectedGenericIndex = genericList.indexOf(suggestion);
+                                  GenericTable generics = generic[_selectedGenericIndex];
+                                  if(generics!=null){
+                                    _selectedGenericID = generics.GenericID;
+                                    _selectedGenericName = generics.GenericName;
+                                    print("generic");
+                                    if(_tradeController.text.isEmpty){
+                                      print("Selectgeneric");
+                                      setState(() {
+                                        getUnitByGeneric(_selectedGenericID);
+                                        _qtyFocusNode.requestFocus();
+                                      });
+                                    }
                                   }
-                                }
+                                });
 
                               },
                               validator: (val) => val!.isEmpty
