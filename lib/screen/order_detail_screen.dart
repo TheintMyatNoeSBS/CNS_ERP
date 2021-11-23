@@ -707,6 +707,14 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
     _statusRemarkController.text = "";
 
   }
+  var currentFocus;
+  unfocus() {
+    currentFocus = FocusScope.of(context);
+
+    if (!currentFocus.hasPrimaryFocus) {
+      currentFocus.unfocus();
+    }
+  }
 
   showLoaderDialog(BuildContext context){
     AlertDialog alert=AlertDialog(
@@ -1153,11 +1161,11 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
                             ),
                           ),
                         ),
-                        Expanded(
+                        /*Expanded(
                           child: GestureDetector(
                             onTap: () {
 
-                              FocusScope.of(context).requestFocus(new FocusNode());
+                              FocusScope.of(context).unfocus();
                             },
                             child: TypeAheadFormField(
                               textFieldConfiguration: TextFieldConfiguration(
@@ -1165,6 +1173,11 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
                                 cursorColor: Colors.transparent,
                                 cursorWidth: 0,
                                 maxLines: 2,
+                                onTap: (){
+                                  setState(() {
+                                    FocusScope.of(context).unfocus();
+                                  });
+                                },
                                 decoration: InputDecoration(
                                     isDense: true,
                                     contentPadding: EdgeInsets.only(top: 20,bottom: 6),
@@ -1243,8 +1256,8 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
                               },
                             ),
                           ),
-                        )
-                        /*Expanded(
+                        )*/
+                        Expanded(
                           child: Padding(
                             padding: EdgeInsets.only(right: 10),
                             child: DropdownButton<String>(
@@ -1289,7 +1302,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
                               },
                             ),
                           ),
-                        )*/
+                        )
                       ],
                     ),
                   ),
