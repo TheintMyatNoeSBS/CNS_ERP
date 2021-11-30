@@ -448,6 +448,9 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
         }
         print("ChooseUnit_:$_chosenValue");
       }
+      setState(() {
+        _qtyFocusNode.requestFocus();
+      });
     });
 
   }
@@ -480,16 +483,18 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
 
               }
             }
-            print("Add..");
-            unitList.add(itemUnit[i].UomLabel);
+            setState(() {
+              print("Add..");
+              unitList.add(itemUnit[i].UomLabel);
 
-            print(itemUnit[i].UomLabel);
-            _selectedUnit = itemUnits[0].UomLabel;
-            _selectedUnitID = itemUnits[0].ItemUOMID;
-            _unitController.text = itemUnits[0].UomLabel;
-            _chosenValue = unitList[0];
-            print(unitList.length);
-            print(itemUnits.length);
+              print(itemUnit[i].UomLabel);
+              _selectedUnit = itemUnits[0].UomLabel;
+              _selectedUnitID = itemUnits[0].ItemUOMID;
+              _unitController.text = itemUnits[0].UomLabel;
+              _chosenValue = unitList[0];
+              print(unitList.length);
+              print(itemUnits.length);
+            });
           });
         }
         setState(() {
@@ -512,6 +517,9 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
 
             }
           }
+          setState(() {
+            _qtyFocusNode.requestFocus();
+          });
         });
       }
     }

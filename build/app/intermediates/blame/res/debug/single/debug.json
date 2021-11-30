@@ -4,48 +4,124 @@
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_corner.xml.flat",
-        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/fluttertoast/intermediates/packaged_res/debug/drawable/corner.xml"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_ic_plusone_small_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_text_normal_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_icon_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_text_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_text_focus_light.9.png"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_icon_pressed_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_normal_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_text_normal_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_full_open_on_phone.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_disabled_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_text_pressed_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_ic_plusone_tall_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/ic_plusone_tall_off_client.png"
+    },
+    {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/raw_gtm_analytics.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/raw/gtm_analytics"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/layout-v21/notification_action.xml"
     },
     {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_text_normal_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_ic_plusone_standard_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/9f75394501b231cef11f69bd3a0217e6/res/layout/notification_media_action.xml"
+    },
+    {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_text_normal_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_text_disabled_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_pressed_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_icon_pressed_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_icon_pressed_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/color_common_signin_btn_text_light.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/color/common_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_toast_bg.xml.flat",
@@ -60,52 +136,80 @@
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_text_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_text_focus_light.9.png"
+    },
+    {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_splash_img.jpg.flat",
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/drawable/splash_img.jpg"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_text_pressed_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_text_pressed_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_disabled_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_icon_disabled_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-v21/notification_action_background.xml"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_text_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_ic_plusone_standard_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/9f75394501b231cef11f69bd3a0217e6/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_toast_custom.xml.flat",
-        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/fluttertoast/intermediates/packaged_res/debug/layout/toast_custom.xml"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/9f75394501b231cef11f69bd3a0217e6/res/layout/notification_template_lines_media.xml"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_text_pressed_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_common_signin_btn_icon_light.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable/common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_text_disabled_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_normal_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_text_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
@@ -116,12 +220,16 @@
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_ic_plusone_tall_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-tvdpi_ic_plusone_tall_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-tvdpi/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_text_disabled_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
@@ -132,32 +240,56 @@
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_ic_plusone_medium_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/ic_plusone_medium_off_client.png"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_text_disabled_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png"
+    },
+    {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-v21_launch_background.xml.flat",
-        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/drawable-v21/launch_background.xml"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_normal_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_text_normal_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_text_disabled_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_common_signin_btn_text_dark.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable/common_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_icon_disabled_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_icon_disabled_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_icon_normal_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
@@ -168,10 +300,6 @@
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable/notification_bg_low.xml"
-    },
-    {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_custom_dialog.xml.flat",
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/layout/custom_dialog.xml"
     },
@@ -180,12 +308,12 @@
         "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
-        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/layout/notification_template_part_time.xml"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_normal_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png"
     },
     {
-        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_text_disabled_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png"
     },
     {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -196,7 +324,351 @@
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_ic_plusone_small_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_ic_plusone_tall_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/ic_plusone_tall_off_client.png"
+    },
+    {
         "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
         "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/9f75394501b231cef11f69bd3a0217e6/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_text_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_ic_plusone_standard_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_ic_googleplayservices.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_corner.xml.flat",
+        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/fluttertoast/intermediates/packaged_res/debug/drawable/corner.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_ic_plusone_small_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_disabled_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_pressed_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_ic_plusone_medium_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_text_pressed_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_disabled_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/color_common_signin_btn_text_dark.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/color/common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_text_pressed_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_text_disabled_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_icon_disabled_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_disabled_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_ic_plusone_tall_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_text_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/9f75394501b231cef11f69bd3a0217e6/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_icon_disabled_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/9f75394501b231cef11f69bd3a0217e6/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_icon_disabled_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_text_pressed_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_icon_normal_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_text_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_icon_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_icon_normal_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_text_disabled_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_disabled_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_text_normal_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_common_signin_btn_text_light.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable/common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_icon_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-tvdpi_ic_plusone_standard_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-tvdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/9f75394501b231cef11f69bd3a0217e6/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_text_normal_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_icon_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_disabled_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_ic_plusone_small_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_toast_custom.xml.flat",
+        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/fluttertoast/intermediates/packaged_res/debug/layout/toast_custom.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_ic_plusone_medium_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_common_signin_btn_icon_dark.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable/common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/9f75394501b231cef11f69bd3a0217e6/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_icon_normal_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_text_pressed_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_pressed_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_disabled_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_text_disabled_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_text_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-tvdpi_ic_plusone_medium_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-tvdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_text_disabled_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_text_disabled_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_text_disabled_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_text_disabled_focus_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_icon_disabled_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_ic_plusone_medium_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_ic_plusone_standard_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_pressed_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_text_normal_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-v21_launch_background.xml.flat",
+        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-tvdpi_ic_plusone_small_off_client.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-tvdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_text_disabled_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_text_disabled_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/9f75394501b231cef11f69bd3a0217e6/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_text_disabled_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/5f6d890aa6572df61302f039a0caf61b/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-xhdpi_common_signin_btn_icon_disabled_focus_light.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/Systematic/Flutter_Project/CNS_ERP/CNS_ERP/build/app/intermediates/res/merged/debug/drawable-hdpi_common_signin_btn_icon_pressed_dark.9.png.flat",
+        "source": "/Users/Systematic/.gradle/caches/transforms-2/files-2.1/e34189d4c886c284d575ee4ed8b2a367/res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png"
     }
 ]

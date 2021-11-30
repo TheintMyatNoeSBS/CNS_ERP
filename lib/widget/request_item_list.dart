@@ -646,15 +646,19 @@ class _RequestItemListState extends State<RequestItemList> {
                                 _genericController.text = suggestion;
                                 _selectedGenericIndex = genericList.indexOf(suggestion);
                                 GenericTable generics = generic[_selectedGenericIndex];
-                                if(generics!=null){
-                                  _selectedGenericID = generics.GenericID;
-                                  _selectedGenericName = generics.GenericName;
+                                setState(() {
+                                  if(generics!=null){
+                                    _selectedGenericID = generics.GenericID;
+                                    _selectedGenericName = generics.GenericName;
 
-                                  if(_tradeController.text.isEmpty){
-                                    getUnitByGeneric(_selectedGenericID,"");
-                                    _qtyFocusNode.requestFocus();
+                                    if(_tradeController.text.isEmpty){
+                                      setState(() {
+                                        getUnitByGeneric(_selectedGenericID,"");
+                                        _qtyFocusNode.requestFocus();
+                                      });
+                                    }
                                   }
-                                }
+                                });
 
 
 
